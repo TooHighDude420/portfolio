@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    background:rgb(68, 68, 68);
+}
+
+header{
+    width: 5%;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* style fo the navbar */
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background:rgba(22, 22, 22, 0.7);
+    height: 100vh;
+}
+
+.navbar-card-cluster{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 21vh;
+}
+
+.navbar-card-cluster a{
+    width: 90%;
+    border-radius: 10px;
+
+}
+
+.navbar-card{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10vh;
+    border-radius: 10px;
+}
+
+.navbar-card-cluster :hover{
+    background-color:rgb(118, 118, 118);
+}
+
+.navbar-card-cluster :active{
+    background-color:rgb(118, 118, 118);
+}
+
+.navbar-card-cluster :focus{
+    background-color:rgb(118, 118, 118);
+}
+
+.navbar-bottom .top-github{
+    background: none;
+}
+
+.navbar-card img{
+    width: 30px;
+    height: 30px;
+}
