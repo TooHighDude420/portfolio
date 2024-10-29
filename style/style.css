@@ -6,7 +6,7 @@
 body{
     display: flex;
     flex-direction: row;
-    background:rgb(68, 68, 68);
+    background:rgb(90, 90, 90);
 }
 
 header{
@@ -27,7 +27,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    background:rgba(22, 22, 22, 0.7);
+    background:rgba(255, 168, 97, 0.534);
     height: 100vh;
 }
 
@@ -36,8 +36,8 @@ header{
     width: 100%;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
     justify-content: space-around;
-    height: 21vh;
 }
 
 .navbar-card-cluster a{
@@ -56,16 +56,12 @@ header{
     border-radius: 10px;
 }
 
+.active{
+    background-color:rgb(255, 230, 165);
+}
+
 .navbar-card-cluster :hover{
-    background-color:rgb(118, 118, 118);
-}
-
-.navbar-card-cluster :active{
-    background-color:rgb(118, 118, 118);
-}
-
-.navbar-card-cluster :focus{
-    background-color:rgb(118, 118, 118);
+    background-color:rgb(255, 230, 165);
 }
 
 .navbar-bottom .top-github{
