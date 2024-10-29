@@ -20,8 +20,8 @@ header{
     flex-wrap: wrap;
     align-items: center;
 }
-/* style fo the navbar */
 
+/* style fo the navbar */
 .navbar{
     display: flex;
     flex-direction: column;
@@ -75,4 +75,47 @@ header{
 .navbar-card img{
     width: 30px;
     height: 30px;
+}
+
+/* home styling */
+/* me styling */
+
+/* programs styling */
+.programs-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.card-temp{
+    display: flex;
+    background-color:rgb(217, 217, 217);
+    height: 356px;
+    width: 328px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.card-temp img{
+    height: 100%;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.card-temp-top{
+    height: 220px;
+    width: 284px;
+    border-radius: 25px;
+}
+
+.card-temp-bottom{
+    display: flex;
+    height: 25%;
+    width: 85%;
+    flex-direction: column;
+    align-items: center;
 }
