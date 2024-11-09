@@ -10,6 +10,7 @@ body{
 }
 
 header{
+    position: sticky;
     width: 5%;
 }
 
@@ -29,6 +30,7 @@ header{
     width: 100%;
     background:rgba(255, 168, 97, 0.534);
     height: 100vh;
+
 }
 
 .navbar-card-cluster{

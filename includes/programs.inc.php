@@ -10,6 +10,9 @@
         <div class="card-temp-bottom">
             <h1>Mastermind 1.0</h1>
             <p>Het eerste project voor het vak java</p>
+            <form action="http://localhost:32769/index.php?page=mm">
+                <button type="submit">Try it!</button>
+            </form>
         </div>
     </div>
 
@@ -19,7 +22,7 @@
         </div>
         <div class="card-temp-bottom">
             <h1>Pink goose</h1>
-            <p>Het eerste project voor het vak websites</p>
+            <p>Het eerste project voor het vak websites</p>    
         </div>
     </div>
 

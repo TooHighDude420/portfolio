@@ -28,7 +28,9 @@
 </header>
 
 <section class="main-content">
-    <?php include("includes/$page.inc.php") ?>
+    <div class="background">
+        <?php include("includes/$page.inc.php") ?>
+    </div>
 </section>
 
 </body>
